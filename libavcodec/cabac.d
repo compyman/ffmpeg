@@ -11,4 +11,5 @@ libavcodec/cabac.o: libavcodec/cabac.c libavutil/common.h \
  libavutil/arm/bswap.h libavutil/arm/intreadwrite.h libavutil/log.h \
  libavutil/avassert.h libavcodec/mathops.h libavcodec/arm/mathops.h \
  libavcodec/cabac.h libavcodec/put_bits.h libavcodec/cabac_functions.h \
- libavcodec/arm/cabac.h libavcodec/cabac_tablegen.h
+ libavcodec/arm/cabac.h libavutil/internal.h libavcodec/cabac.h \
+ libavcodec/cabac_tablegen.h

@@ -17,9 +17,10 @@ function build_one
     --disable-doc \
     --disable-symver \
     --cross-prefix=$TOOLCHAIN/bin/arm-linux-androideabi- \
+    --enable-cross-compile \
     --target-os=linux \
     --arch=arm \
-    --enable-cross-compile \
+    --cpu=armv7-a \
     --sysroot=$SYSROOT \
     --extra-cflags="-Os -fpic $ADDI_CFLAGS" \
     --extra-ldflags="$ADDI_LDFLAGS" \
@@ -28,7 +29,8 @@ make clean
 make
 make install
 }
-CPU=arm
+
+CPU=armeabi-v7a
 PREFIX=$(pwd)/android/$CPU 
 ADDI_CFLAGS="-marm"
 build_one

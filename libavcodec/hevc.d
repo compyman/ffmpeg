@@ -14,12 +14,12 @@ libavcodec/hevc.o: libavcodec/hevc.c libavutil/atomic.h config.h \
  libavutil/avassert.h libavutil/intreadwrite.h libavutil/bswap.h \
  libavutil/arm/bswap.h libavutil/arm/intreadwrite.h \
  libavcodec/cabac_functions.h libavcodec/cabac.h libavcodec/put_bits.h \
- libavcodec/arm/cabac.h libavcodec/golomb.h libavcodec/get_bits.h \
- libavutil/log.h libavcodec/mathops.h libavcodec/arm/mathops.h \
- libavcodec/hevc.h libavutil/buffer.h libavcodec/avcodec.h \
- libavutil/samplefmt.h libavutil/avutil.h libavutil/cpu.h \
- libavutil/channel_layout.h libavutil/dict.h libavutil/frame.h \
- libavutil/pixfmt.h libavutil/rational.h libavcodec/version.h \
- libavutil/version.h libavcodec/old_codec_ids.h libavcodec/hevcpred.h \
- libavcodec/hevcdsp.h libavcodec/internal.h libavutil/mathematics.h \
- libavcodec/thread.h libavcodec/videodsp.h
+ libavcodec/arm/cabac.h libavcodec/cabac.h libavcodec/golomb.h \
+ libavcodec/get_bits.h libavutil/log.h libavcodec/mathops.h \
+ libavcodec/arm/mathops.h libavcodec/hevc.h libavutil/buffer.h \
+ libavcodec/avcodec.h libavutil/samplefmt.h libavutil/avutil.h \
+ libavutil/cpu.h libavutil/channel_layout.h libavutil/dict.h \
+ libavutil/frame.h libavutil/pixfmt.h libavutil/rational.h \
+ libavcodec/version.h libavutil/version.h libavcodec/old_codec_ids.h \
+ libavcodec/hevcpred.h libavcodec/hevcdsp.h libavcodec/internal.h \
+ libavutil/mathematics.h libavcodec/thread.h libavcodec/videodsp.h

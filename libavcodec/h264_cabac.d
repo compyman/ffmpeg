@@ -10,10 +10,11 @@ libavcodec/h264_cabac.o: libavcodec/h264_cabac.c libavutil/attributes.h \
  libavutil/timer.h libavcodec/cabac.h libavcodec/put_bits.h \
  libavutil/intreadwrite.h libavutil/bswap.h libavutil/arm/bswap.h \
  libavutil/arm/intreadwrite.h libavcodec/cabac_functions.h \
- libavcodec/arm/cabac.h libavcodec/internal.h libavutil/buffer.h \
- libavutil/channel_layout.h libavutil/mathematics.h libavutil/pixfmt.h \
- libavcodec/avcodec.h libavutil/samplefmt.h libavutil/avutil.h \
- libavutil/cpu.h libavutil/dict.h libavutil/frame.h libavutil/buffer.h \
+ libavcodec/arm/cabac.h libavutil/internal.h libavcodec/cabac.h \
+ libavcodec/internal.h libavutil/buffer.h libavutil/channel_layout.h \
+ libavutil/mathematics.h libavutil/pixfmt.h libavcodec/avcodec.h \
+ libavutil/samplefmt.h libavutil/avutil.h libavutil/cpu.h \
+ libavutil/dict.h libavutil/frame.h libavutil/buffer.h \
  libavutil/samplefmt.h libavutil/log.h libavutil/rational.h \
  libavcodec/version.h libavutil/version.h libavcodec/old_codec_ids.h \
  libavcodec/h264.h libavcodec/error_resilience.h libavcodec/me_cmp.h \
